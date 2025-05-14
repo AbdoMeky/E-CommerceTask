@@ -1,0 +1,303 @@
+{
+  "Admins": [
+    {
+      "Name": "Admin User",
+      "Email": "admin@example.com",
+      "PhoneNumber": "01000000000",
+      "ProfilePictureUrl": "https://example.com/images/admin.png"
+    }
+  ],
+  "Users": [
+    {
+      "Name": "Abdo Meky",
+      "Email": "abdo@example.com",
+      "PhoneNumber": "01011111111",
+      "ProfilePictureUrl": "https://example.com/images/abdo.png"
+    },
+    {
+      "Name": "Taha Shosha",
+      "Email": "taha@example.com",
+      "PhoneNumber": "01022222222",
+      "ProfilePictureUrl": "https://example.com/images/taha.png"
+    },
+    {
+      "Name": "Doha",
+      "Email": "doha@example.com",
+      "PhoneNumber": "01033333333",
+      "ProfilePictureUrl": "https://example.com/images/doha.png"
+    }
+  ],
+  "Categories": [
+    "Electronics",
+    "Clothing",
+    "Books",
+    "Home Appliances",
+    "Toys",
+    "Beauty",
+    "Sports",
+    "Furniture",
+    "Groceries",
+    "Automotive"
+  ],
+  "Products": [
+    // Electronics
+    {
+      "Name": "Smartphone",
+      "Description": "High-end smartphone with AMOLED display.",
+      "Price": 999.99,
+      "ImagePath": "https://example.com/images/smartphone.jpg",
+      "Quantity": 40,
+      "CategoryName": "Electronics"
+    },
+    {
+      "Name": "Laptop",
+      "Description": "Powerful laptop for work and gaming.",
+      "Price": 1399.00,
+      "ImagePath": "https://example.com/images/laptop.jpg",
+      "Quantity": 25,
+      "CategoryName": "Electronics"
+    },
+    {
+      "Name": "Wireless Headphones",
+      "Description": "Noise cancelling over-ear headphones.",
+      "Price": 199.99,
+      "ImagePath": "https://example.com/images/headphones.jpg",
+      "Quantity": 60,
+      "CategoryName": "Electronics"
+    },
+
+    // Clothing
+    {
+      "Name": "T-Shirt",
+      "Description": "100% cotton t-shirt.",
+      "Price": 15.99,
+      "ImagePath": "https://example.com/images/tshirt.jpg",
+      "Quantity": 100,
+      "CategoryName": "Clothing"
+    },
+    {
+      "Name": "Hoodie",
+      "Description": "Warm and comfortable hoodie.",
+      "Price": 35.50,
+      "ImagePath": "https://example.com/images/hoodie.jpg",
+      "Quantity": 80,
+      "CategoryName": "Clothing"
+    },
+    {
+      "Name": "Sneakers",
+      "Description": "Stylish running shoes.",
+      "Price": 70.00,
+      "ImagePath": "https://example.com/images/sneakers.jpg",
+      "Quantity": 50,
+      "CategoryName": "Clothing"
+    },
+
+    // Books
+    {
+      "Name": "The Silent Patient",
+      "Description": "Psychological thriller novel.",
+      "Price": 11.99,
+      "ImagePath": "https://example.com/images/book1.jpg",
+      "Quantity": 70,
+      "CategoryName": "Books"
+    },
+    {
+      "Name": "Clean Code",
+      "Description": "Software engineering best practices.",
+      "Price": 45.00,
+      "ImagePath": "https://example.com/images/book2.jpg",
+      "Quantity": 40,
+      "CategoryName": "Books"
+    },
+    {
+      "Name": "Atomic Habits",
+      "Description": "Guide to building good habits.",
+      "Price": 18.99,
+      "ImagePath": "https://example.com/images/book3.jpg",
+      "Quantity": 60,
+      "CategoryName": "Books"
+    },
+
+    // Home Appliances
+    {
+      "Name": "Microwave Oven",
+      "Description": "Compact and powerful microwave.",
+      "Price": 150.00,
+      "ImagePath": "https://example.com/images/microwave.jpg",
+      "Quantity": 20,
+      "CategoryName": "Home Appliances"
+    },
+    {
+      "Name": "Refrigerator",
+      "Description": "Double door refrigerator with freezer.",
+      "Price": 999.99,
+      "ImagePath": "https://example.com/images/fridge.jpg",
+      "Quantity": 10,
+      "CategoryName": "Home Appliances"
+    },
+    {
+      "Name": "Air Conditioner",
+      "Description": "Energy-efficient split AC.",
+      "Price": 1200.00,
+      "ImagePath": "https://example.com/images/ac.jpg",
+      "Quantity": 15,
+      "CategoryName": "Home Appliances"
+    },
+
+    // Toys
+    {
+      "Name": "LEGO Classic Set",
+      "Description": "Creative brick building toy.",
+      "Price": 49.99,
+      "ImagePath": "https://example.com/images/lego.jpg",
+      "Quantity": 90,
+      "CategoryName": "Toys"
+    },
+    {
+      "Name": "RC Car",
+      "Description": "Remote control car for kids.",
+      "Price": 39.99,
+      "ImagePath": "https://example.com/images/rccar.jpg",
+      "Quantity": 55,
+      "CategoryName": "Toys"
+    },
+    {
+      "Name": "Barbie Doll",
+      "Description": "Fashion doll with accessories.",
+      "Price": 25.00,
+      "ImagePath": "https://example.com/images/barbie.jpg",
+      "Quantity": 65,
+      "CategoryName": "Toys"
+    },
+
+    // Beauty
+    {
+      "Name": "Facial Cleanser",
+      "Description": "Gentle daily face wash.",
+      "Price": 10.00,
+      "ImagePath": "https://example.com/images/cleanser.jpg",
+      "Quantity": 70,
+      "CategoryName": "Beauty"
+    },
+    {
+      "Name": "Lipstick Set",
+      "Description": "Matte finish long lasting lipstick.",
+      "Price": 22.00,
+      "ImagePath": "https://example.com/images/lipstick.jpg",
+      "Quantity": 80,
+      "CategoryName": "Beauty"
+    },
+    {
+      "Name": "Perfume",
+      "Description": "Fresh fragrance for daily use.",
+      "Price": 60.00,
+      "ImagePath": "https://example.com/images/perfume.jpg",
+      "Quantity": 30,
+      "CategoryName": "Beauty"
+    },
+
+    // Sports
+    {
+      "Name": "Football",
+      "Description": "Professional size 5 football.",
+      "Price": 25.00,
+      "ImagePath": "https://example.com/images/football.jpg",
+      "Quantity": 40,
+      "CategoryName": "Sports"
+    },
+    {
+      "Name": "Tennis Racket",
+      "Description": "Lightweight tennis racket.",
+      "Price": 75.00,
+      "ImagePath": "https://example.com/images/tennis.jpg",
+      "Quantity": 20,
+      "CategoryName": "Sports"
+    },
+    {
+      "Name": "Yoga Mat",
+      "Description": "Non-slip yoga mat.",
+      "Price": 30.00,
+      "ImagePath": "https://example.com/images/yoga.jpg",
+      "Quantity": 50,
+      "CategoryName": "Sports"
+    },
+
+    // Furniture
+    {
+      "Name": "Office Chair",
+      "Description": "Ergonomic swivel chair.",
+      "Price": 120.00,
+      "ImagePath": "https://example.com/images/chair.jpg",
+      "Quantity": 30,
+      "CategoryName": "Furniture"
+    },
+    {
+      "Name": "Wooden Desk",
+      "Description": "Spacious wooden work desk.",
+      "Price": 250.00,
+      "ImagePath": "https://example.com/images/desk.jpg",
+      "Quantity": 20,
+      "CategoryName": "Furniture"
+    },
+    {
+      "Name": "Bookshelf",
+      "Description": "5-tier wooden bookshelf.",
+      "Price": 90.00,
+      "ImagePath": "https://example.com/images/bookshelf.jpg",
+      "Quantity": 25,
+      "CategoryName": "Furniture"
+    },
+
+    // Groceries
+    {
+      "Name": "Organic Honey",
+      "Description": "Pure organic wild honey.",
+      "Price": 15.00,
+      "ImagePath": "https://example.com/images/honey.jpg",
+      "Quantity": 100,
+      "CategoryName": "Groceries"
+    },
+    {
+      "Name": "Olive Oil",
+      "Description": "Extra virgin olive oil.",
+      "Price": 12.50,
+      "ImagePath": "https://example.com/images/oliveoil.jpg",
+      "Quantity": 90,
+      "CategoryName": "Groceries"
+    },
+    {
+      "Name": "Brown Rice",
+      "Description": "1kg pack of healthy brown rice.",
+      "Price": 5.50,
+      "ImagePath": "https://example.com/images/rice.jpg",
+      "Quantity": 120,
+      "CategoryName": "Groceries"
+    },
+
+    // Automotive
+    {
+      "Name": "Car Vacuum Cleaner",
+      "Description": "Portable vacuum for car interiors.",
+      "Price": 35.00,
+      "ImagePath": "https://example.com/images/vacuum.jpg",
+      "Quantity": 40,
+      "CategoryName": "Automotive"
+    },
+    {
+      "Name": "Car Cover",
+      "Description": "Weatherproof full car cover.",
+      "Price": 50.00,
+      "ImagePath": "https://example.com/images/carcover.jpg",
+      "Quantity": 35,
+      "CategoryName": "Automotive"
+    },
+    {
+      "Name": "Engine Oil 5W-30",
+      "Description": "High-performance synthetic oil.",
+      "Price": 45.00,
+      "ImagePath": "https://example.com/images/engineoil.jpg",
+      "Quantity": 60,
+      "CategoryName": "Automotive"
+    }
+  ]
+}
