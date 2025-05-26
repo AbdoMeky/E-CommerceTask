@@ -63,8 +63,8 @@ namespace E_CommerceTask.Controllers
             }
             return BadRequest(new Generalresponse { IsSuccess = false, Data = result.Message });
         }
-        [HttpGet("Revoke")]
-        public async Task<ActionResult> Revoke()
+        [HttpGet("Logout")]
+        public async Task<ActionResult> Logout()
         {
             var refreshToken = Request.Cookies["refreshToken"];
             var result = await _accountingRepository.RevokeRefreshToken(refreshToken);

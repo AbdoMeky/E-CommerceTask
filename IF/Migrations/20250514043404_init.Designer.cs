@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace IF.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250513005336_init")]
+    [Migration("20250514043404_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -129,6 +129,7 @@ namespace IF.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("TotalPrice")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("UserId")
@@ -153,6 +154,7 @@ namespace IF.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal>("Price")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int?>("ProductId")
@@ -193,6 +195,7 @@ namespace IF.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
+                        .HasPrecision(18, 2)
                         .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Quantity")

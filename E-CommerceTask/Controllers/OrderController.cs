@@ -39,6 +39,16 @@ namespace E_CommerceTask.Controllers
             var result = await _orderRepository.GetOrdersForUser(userId, page, pageSize);
             return Ok(new Generalresponse { IsSuccess = true, Data = result });
         }
+        [HttpGet("CurrentUserOrder")]
+        [Authorize(Roles = "User")]
+        public async Task<ActionResult> GetCurrentUserOrder()
+        {
+            var userId = User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+                return Unauthorized(new Generalresponse { IsSuccess = false, Data = "User not logged in." });
+            var result = await _orderRepository.GetCurrentUserOrder(userId);
+            return Ok(new Generalresponse { IsSuccess = true, Data = result });
+        }
         [HttpGet("OrdersForAdmin")]
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult> GetOrdersForAdmin(int page, int pageSize)

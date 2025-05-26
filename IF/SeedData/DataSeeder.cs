@@ -29,7 +29,7 @@ namespace IF.SeedData
                     Console.WriteLine("File not found: " + jsonFilePath);
                     return;
                 }
-
+                
                 var jsonData = File.ReadAllText(jsonFilePath);
                 var seedData = JsonConvert.DeserializeObject<SeedingData>(jsonData);
                 if (seedData == null) return;

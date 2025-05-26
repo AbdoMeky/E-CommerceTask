@@ -111,7 +111,28 @@ namespace IF.Repositories
             }
             return result;
         }
-
+        public async Task<ShowOrderDTO> GetCurrentUserOrder(string userId)
+        {
+            var result = await _context.Orders
+                .Where(x => x.UserId == userId&&!x.IsRecieved)
+                .Select(o => new ShowOrderDTO
+                {
+                    Id = o.Id,
+                    IsRecieved = o.IsRecieved,
+                    OrderDate = o.OrderDate,
+                    TotalPrice = o.TotalPrice,
+                    UserName = o.User != null ? o.User.Name : "UnKnown",
+                    UserId = o.UserId,
+                    OrderItems = o.OrderItems.Select(x => new ShowOrderItemDTO()
+                    {
+                        Id = x.Id,
+                        Price = x.Price,
+                        ProductName = x.Product != null ? x.Product.Name : "Unknown",
+                        Quantity = x.Quantity
+                    }).ToList()
+                }).FirstOrDefaultAsync();
+            return result;
+        }
         public async Task<List<ShowOrderDTO>> GetOrdersForAdmin(int page, int pageSize)
         {
             var result = _context.Orders

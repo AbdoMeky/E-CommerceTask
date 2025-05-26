@@ -7,6 +7,7 @@ namespace Core.Interfaces
     {
         Task<ShowOrderDTO> GetOrder(int id, string userId);
         Task<List<ShowUserOrderDTO>> GetOrdersForUser(string userId, int page, int pageSize);
+        Task<ShowOrderDTO> GetCurrentUserOrder(string userId);
         Task<List<ShowOrderDTO>> GetOrdersForAdmin(int page, int pageSize);
         Task<IntResult> MakeItReseved(int id);
         Task<IntResult> Delete(int id, string userId);

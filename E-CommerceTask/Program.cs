@@ -67,7 +67,7 @@ namespace E_CommerceTask
                     });
             });
             builder.Services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("ServerConnection"))); 
+                options.UseSqlServer(builder.Configuration.GetConnectionString("ServerConnection")));//ServerConnection
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<AppDbContext>()
                 .AddDefaultTokenProviders();
@@ -106,7 +106,7 @@ namespace E_CommerceTask
 
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-           
+
 
             var app = builder.Build();
             using (var scope = app.Services.CreateScope())
@@ -116,11 +116,9 @@ namespace E_CommerceTask
             }
             // Configure the HTTP request pipeline.
             app.UseCors("Mypolicy");
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
+            app.UseSwagger();
+            app.UseSwaggerUI();
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             //app.UseStatusCodePages();

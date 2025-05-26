@@ -14,6 +14,7 @@ namespace IF.Data.Configuration
         public void Configure(EntityTypeBuilder<Order> builder)
         {
             builder.HasOne(x => x.User).WithMany(x => x.Orders).HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.SetNull);
+            builder.Property(p => p.TotalPrice).HasPrecision(18, 2);
         }
     }
 }

@@ -74,20 +74,26 @@ namespace IF.Repositories
                 var result = await _productRepository.Decrease(item.ProductId, item.Quantity);
                 if (!string.IsNullOrEmpty(result.Massage))
                     return new IntResult() { Message = result.Massage };
-
-                var newItem = new OrderItem
+                var oldItem = order.OrderItems.FirstOrDefault(x => x.ProductId == item.ProductId);
+                if (oldItem is not null&& (oldItem.Price/oldItem.Quantity)==(result.price/item.Quantity))
                 {
-                    OrderId = orderId,
-                    ProductId = item.ProductId,
-                    Quantity = item.Quantity,
-                    Price = (decimal)result.price
-                };
-
-                await _context.OrderItems.AddAsync(newItem);
-                order.TotalPrice += newItem.Price;
+                    oldItem.Quantity += item.Quantity;
+                    oldItem.Price += (decimal)result.price;
+                }
+                else
+                {
+                    oldItem = new OrderItem
+                    {
+                        OrderId = orderId,
+                        ProductId = item.ProductId,
+                        Quantity = item.Quantity,
+                        Price = (decimal)result.price
+                    };
+                    await _context.OrderItems.AddAsync(oldItem);
+                    order.TotalPrice += oldItem.Price;
+                }
                 await _context.SaveChangesAsync();
-
-                return new IntResult { Id = newItem.Id };
+                return new IntResult { Id = oldItem.Id };
             }
             catch (Exception ex)
             {

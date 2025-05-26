@@ -28,276 +28,196 @@
     }
   ],
   "Categories": [
-    "Electronics",
-    "Clothing",
-    "Books",
-    "Home Appliances",
-    "Toys",
-    "Beauty",
-    "Sports",
-    "Furniture",
-    "Groceries",
-    "Automotive"
+    "Casual Wear",
+    "Formal Wear",
+    "Sportswear",
+    "Accessories",
+    "Footwear"
   ],
   "Products": [
-    // Electronics
     {
-      "Name": "Smartphone",
-      "Description": "High-end smartphone with AMOLED display.",
-      "Price": 999.99,
-      "ImagePath": "https://example.com/images/smartphone.jpg",
-      "Quantity": 40,
-      "CategoryName": "Electronics"
+      "Name": "Classic White T-Shirt",
+      "Description": "تيشيرت أبيض كلاسيكي مصنوع من قطن عالي الجودة.",
+      "Price": 19.99,
+      "ImagePath": "https://classicfella.com/cdn/shop/files/TShirt_White_Trans_0.5x_8537c1fa-10c5-4246-b7fb-55ff5b3a9eb1.png?v=1690384635",
+      "Quantity": 150,
+      "CategoryName": "Casual Wear"
     },
     {
-      "Name": "Laptop",
-      "Description": "Powerful laptop for work and gaming.",
-      "Price": 1399.00,
-      "ImagePath": "https://example.com/images/laptop.jpg",
-      "Quantity": 25,
-      "CategoryName": "Electronics"
-    },
-    {
-      "Name": "Wireless Headphones",
-      "Description": "Noise cancelling over-ear headphones.",
-      "Price": 199.99,
-      "ImagePath": "https://example.com/images/headphones.jpg",
-      "Quantity": 60,
-      "CategoryName": "Electronics"
-    },
-
-    // Clothing
-    {
-      "Name": "T-Shirt",
-      "Description": "100% cotton t-shirt.",
-      "Price": 15.99,
-      "ImagePath": "https://example.com/images/tshirt.jpg",
-      "Quantity": 100,
-      "CategoryName": "Clothing"
-    },
-    {
-      "Name": "Hoodie",
-      "Description": "Warm and comfortable hoodie.",
-      "Price": 35.50,
-      "ImagePath": "https://example.com/images/hoodie.jpg",
+      "Name": "Blue Denim Jeans",
+      "Description": "بنطال جينز أزرق مريح وأنيق بقصة ضيقة.",
+      "Price": 49.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQBqFLWvuRtRWByBNlj-nH53JKjNPrK2V0bAEvL9CtbJePdd6FdLBOkX8oXVPMKGNS3an-_yoW1d3T2R9_scEn-glSio4ucgORI6UZunDvWWXGAWszDQZWshfbq9j8eL3t0TczhH3lEYg&usqp=CAc",
       "Quantity": 80,
-      "CategoryName": "Clothing"
+      "CategoryName": "Casual Wear"
+    },
+    {
+      "Name": "Oversized Hoodie",
+      "Description": "هودي واسع ناعم، مثالي للإطلالات الكاجوال.",
+      "Price": 39.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR33J6mSvecI-I2GQ5h0szZrDsp4MGUnjWxvQ&s",
+      "Quantity": 120,
+      "CategoryName": "Casual Wear"
+    },
+    {
+      "Name": "Striped Polo Shirt",
+      "Description": "قميص بولو مخطط مصنوع من قماش قابل للتنفس.",
+      "Price": 29.99,
+      "ImagePath": "https://www.dockland.com.eg/cdn/shop/files/S25-POCA90-CH-1_394x.jpg?v=1746264347",
+      "Quantity": 90,
+      "CategoryName": "Casual Wear"
+    },
+    {
+      "Name": "Slim Fit Chinos",
+      "Description": "بنطال تشينو بقصة ضيقة أنيقة للاستخدام اليومي.",
+      "Price": 44.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXH0neVksLOknVL41TprE2YfsArYbvBCg2-w&s",
+      "Quantity": 100,
+      "CategoryName": "Casual Wear"
+    },
+    {
+      "Name": "Men's Navy Suit",
+      "Description": "بدلة زرقاء أنيقة مناسبة للمناسبات الرسمية.",
+      "Price": 199.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoz3ESB7Q1YfPfvyA7GJq2Twq2VypnIip3-Q&s",
+      "Quantity": 40,
+      "CategoryName": "Formal Wear"
+    },
+    {
+      "Name": "Women's Evening Gown",
+      "Description": "فستان سهرة أحمر مذهل بتفاصيل دقيقة.",
+      "Price": 299.99,
+      "ImagePath": "https://i.ebayimg.com/images/g/UOwAAOSw8Hpgrbvk/s-l400.jpg",
+      "Quantity": 25,
+      "CategoryName": "Formal Wear"
+    },
+    {
+      "Name": "Formal White Shirt",
+      "Description": "قميص أبيض رسمي كلاسيكي للمكتب والمناسبات.",
+      "Price": 34.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-0dZLUo1zUBoC_vE0eAjqpy6RBbcXqQlJaQ&s",
+      "Quantity": 100,
+      "CategoryName": "Formal Wear"
+    },
+    {
+      "Name": "Black Blazer",
+      "Description": "بليزر أسود حاد مصنوع من مواد فاخرة.",
+      "Price": 129.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_l9MfbSJn7IXSwxLJoQm1s2pfaJZVnILgMw&s",
+      "Quantity": 70,
+      "CategoryName": "Formal Wear"
+    },
+    {
+      "Name": "Silk Neck Tie",
+      "Description": "ربطة عنق من الحرير لإكمال إطلالتك الرسمية.",
+      "Price": 19.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWy0SHUxKMjH_uukW9MGiumYM2S3X8NN5T4g&s",
+      "Quantity": 200,
+      "CategoryName": "Formal Wear"
+    },
+    {
+      "Name": "Running Shoes",
+      "Description": "أحذية جري خفيفة الوزن ومتينة لجميع التضاريس.",
+      "Price": 89.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLHE0yWwnQRlY8EeksEPbkEOBCvOfXYL8stg&s",
+      "Quantity": 60,
+      "CategoryName": "Sportswear"
+    },
+    {
+      "Name": "Yoga Pants",
+      "Description": "بنطال يوجا مريح ومرن للتمارين اليومية.",
+      "Price": 39.99,
+      "ImagePath": "https://www.allamericanclothing.com/cdn/shop/products/Womens-Cotton-Spandex-Yoga-Pant-Royal-Apparel-1653834567_1200x.jpg?v=1669668803",
+      "Quantity": 100,
+      "CategoryName": "Sportswear"
+    },
+    {
+      "Name": "Training Shorts",
+      "Description": "شورتات قابلة للتنفس مصممة لجلسات التدريب.",
+      "Price": 29.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCZn9ob1JIq9BHbp9pPbDLqz2kWpCCPTafLw&s",
+      "Quantity": 110,
+      "CategoryName": "Sportswear"
+    },
+    {
+      "Name": "Gym Towel",
+      "Description": "منشفة تجفيف سريعة مثالية للتمارين.",
+      "Price": 14.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBW-YezAz6zC0A6YvbKqkYRIxO2SAaEhgPnQ&s",
+      "Quantity": 140,
+      "CategoryName": "Sportswear"
+    },
+    {
+      "Name": "Leather Handbag",
+      "Description": "حقيبة يد جلدية بنية أنيقة مع مقصورات متعددة.",
+      "Price": 129.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6AURjRwygr7m4EKQt236VZmW7wKP04D67xA&s",
+      "Quantity": 70,
+      "CategoryName": "Accessories"
+    },
+    {
+      "Name": "Sunglasses",
+      "Description": "نظارات شمسية بحماية من الأشعة فوق البنفسجية وإطار أسود أنيق.",
+      "Price": 24.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOqE0Kp75KUp0vMQt246cg2OwbDrEkFQaueA&s",
+      "Quantity": 200,
+      "CategoryName": "Accessories"
+    },
+    {
+      "Name": "Leather Belt",
+      "Description": "حزام جلدي كلاسيكي مناسب للإطلالات الرسمية والكاجوال.",
+      "Price": 19.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO6WVUtdN_pmlfeZvWspBAmgEPT_X7Mt73EQ&s",
+      "Quantity": 180,
+      "CategoryName": "Accessories"
+    },
+    {
+      "Name": "Wool Scarf",
+      "Description": "وشاح صوفي ناعم للدفء والأناقة في الشتاء.",
+      "Price": 29.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHWxlyAfNkgrhgEcgLY2z5urFd4lTlRerWZg&s",
+      "Quantity": 90,
+      "CategoryName": "Accessories"
+    },
+    {
+      "Name": "Smart Watch Band",
+      "Description": "سوار قابل للتبديل للساعات الذكية بتصميم أنيق.",
+      "Price": 15.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWVx4VTk2MYPpNSG_kELNy1ZlQf3EKRD_OXA&s",
+      "Quantity": 150,
+      "CategoryName": "Accessories"
+    },
+    {
+      "Name": "Men's Leather Boots",
+      "Description": "أحذية جلدية متينة وأنيقة للرجال.",
+      "Price": 149.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZl7ryY6tvZqWWDnqvN0GH2ccyorNAdDNR3g&s",
+      "Quantity": 50,
+      "CategoryName": "Footwear"
+    },
+    {
+      "Name": "Women's High Heels",
+      "Description": "كعب عالي أنيق مناسب للمناسبات الرسمية.",
+      "Price": 89.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnyQO_r3JDiboFjMycrrf5k5oD39zdaE6HxQ&s",
+      "Quantity": 65,
+      "CategoryName": "Footwear"
     },
     {
       "Name": "Sneakers",
-      "Description": "Stylish running shoes.",
-      "Price": 70.00,
-      "ImagePath": "https://example.com/images/sneakers.jpg",
-      "Quantity": 50,
-      "CategoryName": "Clothing"
-    },
-
-    // Books
-    {
-      "Name": "The Silent Patient",
-      "Description": "Psychological thriller novel.",
-      "Price": 11.99,
-      "ImagePath": "https://example.com/images/book1.jpg",
-      "Quantity": 70,
-      "CategoryName": "Books"
-    },
-    {
-      "Name": "Clean Code",
-      "Description": "Software engineering best practices.",
-      "Price": 45.00,
-      "ImagePath": "https://example.com/images/book2.jpg",
-      "Quantity": 40,
-      "CategoryName": "Books"
-    },
-    {
-      "Name": "Atomic Habits",
-      "Description": "Guide to building good habits.",
-      "Price": 18.99,
-      "ImagePath": "https://example.com/images/book3.jpg",
-      "Quantity": 60,
-      "CategoryName": "Books"
-    },
-
-    // Home Appliances
-    {
-      "Name": "Microwave Oven",
-      "Description": "Compact and powerful microwave.",
-      "Price": 150.00,
-      "ImagePath": "https://example.com/images/microwave.jpg",
-      "Quantity": 20,
-      "CategoryName": "Home Appliances"
-    },
-    {
-      "Name": "Refrigerator",
-      "Description": "Double door refrigerator with freezer.",
-      "Price": 999.99,
-      "ImagePath": "https://example.com/images/fridge.jpg",
-      "Quantity": 10,
-      "CategoryName": "Home Appliances"
-    },
-    {
-      "Name": "Air Conditioner",
-      "Description": "Energy-efficient split AC.",
-      "Price": 1200.00,
-      "ImagePath": "https://example.com/images/ac.jpg",
-      "Quantity": 15,
-      "CategoryName": "Home Appliances"
-    },
-
-    // Toys
-    {
-      "Name": "LEGO Classic Set",
-      "Description": "Creative brick building toy.",
-      "Price": 49.99,
-      "ImagePath": "https://example.com/images/lego.jpg",
-      "Quantity": 90,
-      "CategoryName": "Toys"
-    },
-    {
-      "Name": "RC Car",
-      "Description": "Remote control car for kids.",
-      "Price": 39.99,
-      "ImagePath": "https://example.com/images/rccar.jpg",
-      "Quantity": 55,
-      "CategoryName": "Toys"
-    },
-    {
-      "Name": "Barbie Doll",
-      "Description": "Fashion doll with accessories.",
-      "Price": 25.00,
-      "ImagePath": "https://example.com/images/barbie.jpg",
-      "Quantity": 65,
-      "CategoryName": "Toys"
-    },
-
-    // Beauty
-    {
-      "Name": "Facial Cleanser",
-      "Description": "Gentle daily face wash.",
-      "Price": 10.00,
-      "ImagePath": "https://example.com/images/cleanser.jpg",
-      "Quantity": 70,
-      "CategoryName": "Beauty"
-    },
-    {
-      "Name": "Lipstick Set",
-      "Description": "Matte finish long lasting lipstick.",
-      "Price": 22.00,
-      "ImagePath": "https://example.com/images/lipstick.jpg",
-      "Quantity": 80,
-      "CategoryName": "Beauty"
-    },
-    {
-      "Name": "Perfume",
-      "Description": "Fresh fragrance for daily use.",
-      "Price": 60.00,
-      "ImagePath": "https://example.com/images/perfume.jpg",
-      "Quantity": 30,
-      "CategoryName": "Beauty"
-    },
-
-    // Sports
-    {
-      "Name": "Football",
-      "Description": "Professional size 5 football.",
-      "Price": 25.00,
-      "ImagePath": "https://example.com/images/football.jpg",
-      "Quantity": 40,
-      "CategoryName": "Sports"
-    },
-    {
-      "Name": "Tennis Racket",
-      "Description": "Lightweight tennis racket.",
-      "Price": 75.00,
-      "ImagePath": "https://example.com/images/tennis.jpg",
-      "Quantity": 20,
-      "CategoryName": "Sports"
-    },
-    {
-      "Name": "Yoga Mat",
-      "Description": "Non-slip yoga mat.",
-      "Price": 30.00,
-      "ImagePath": "https://example.com/images/yoga.jpg",
-      "Quantity": 50,
-      "CategoryName": "Sports"
-    },
-
-    // Furniture
-    {
-      "Name": "Office Chair",
-      "Description": "Ergonomic swivel chair.",
-      "Price": 120.00,
-      "ImagePath": "https://example.com/images/chair.jpg",
-      "Quantity": 30,
-      "CategoryName": "Furniture"
-    },
-    {
-      "Name": "Wooden Desk",
-      "Description": "Spacious wooden work desk.",
-      "Price": 250.00,
-      "ImagePath": "https://example.com/images/desk.jpg",
-      "Quantity": 20,
-      "CategoryName": "Furniture"
-    },
-    {
-      "Name": "Bookshelf",
-      "Description": "5-tier wooden bookshelf.",
-      "Price": 90.00,
-      "ImagePath": "https://example.com/images/bookshelf.jpg",
-      "Quantity": 25,
-      "CategoryName": "Furniture"
-    },
-
-    // Groceries
-    {
-      "Name": "Organic Honey",
-      "Description": "Pure organic wild honey.",
-      "Price": 15.00,
-      "ImagePath": "https://example.com/images/honey.jpg",
-      "Quantity": 100,
-      "CategoryName": "Groceries"
-    },
-    {
-      "Name": "Olive Oil",
-      "Description": "Extra virgin olive oil.",
-      "Price": 12.50,
-      "ImagePath": "https://example.com/images/oliveoil.jpg",
-      "Quantity": 90,
-      "CategoryName": "Groceries"
-    },
-    {
-      "Name": "Brown Rice",
-      "Description": "1kg pack of healthy brown rice.",
-      "Price": 5.50,
-      "ImagePath": "https://example.com/images/rice.jpg",
+      "Description": "أحذية رياضية مريحة للمشي اليومي والرياضة.",
+      "Price": 69.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpFnoGSW2ZOE9LrbmzepfsI2Ex2Ojt9JR7Sg&s",
       "Quantity": 120,
-      "CategoryName": "Groceries"
-    },
-
-    // Automotive
-    {
-      "Name": "Car Vacuum Cleaner",
-      "Description": "Portable vacuum for car interiors.",
-      "Price": 35.00,
-      "ImagePath": "https://example.com/images/vacuum.jpg",
-      "Quantity": 40,
-      "CategoryName": "Automotive"
+      "CategoryName": "Footwear"
     },
     {
-      "Name": "Car Cover",
-      "Description": "Weatherproof full car cover.",
-      "Price": 50.00,
-      "ImagePath": "https://example.com/images/carcover.jpg",
-      "Quantity": 35,
-      "CategoryName": "Automotive"
-    },
-    {
-      "Name": "Engine Oil 5W-30",
-      "Description": "High-performance synthetic oil.",
-      "Price": 45.00,
-      "ImagePath": "https://example.com/images/engineoil.jpg",
-      "Quantity": 60,
-      "CategoryName": "Automotive"
+      "Name": "Flip Flops",
+      "Description": "شبشب خفيف الوزن مثالي للشاطئ أو المنزل.",
+      "Price": 14.99,
+      "ImagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMPuxar8nx3oaPZ6N5kFXQ61c2VwWvFVwVBg&s",
+      "Quantity": 100,
+      "CategoryName": "Footwear"
     }
   ]
 }

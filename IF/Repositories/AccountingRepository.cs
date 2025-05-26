@@ -1,5 +1,4 @@
-﻿using Core.DTO;
-using Core.DTO.AccountingDTO;
+﻿using Core.DTO.AccountingDTO;
 using Core.Entities;
 using Core.Helper;
 using Core.Interfaces;
@@ -7,18 +6,14 @@ using IF.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace IF.Repositories
 {
-    public class AccountingRepository: IAccountingRepository
+    public class AccountingRepository : IAccountingRepository
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;

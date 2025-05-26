@@ -14,6 +14,7 @@ namespace IF.Data.Configuration
         public void Configure(EntityTypeBuilder<Product> builder)
         {
             builder.HasOne(x => x.Categories).WithMany(x => x.Products).HasForeignKey(x => x.CategoryId).OnDelete(DeleteBehavior.SetNull);
+            builder.Property(p => p.Price).HasPrecision(18, 2);
         }
     }
 }

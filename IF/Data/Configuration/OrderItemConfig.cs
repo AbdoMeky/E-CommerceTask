@@ -15,6 +15,8 @@ namespace IF.Data.Configuration
         {
             builder.HasOne(x => x.Order).WithMany(x => x.OrderItems).HasForeignKey(x => x.OrderId).OnDelete(DeleteBehavior.SetNull);
             builder.HasOne(x=>x.Product).WithMany(x=>x.OrderItems).HasForeignKey(x=>x.ProductId).OnDelete(DeleteBehavior.SetNull);
+            builder.Property(p => p.Price).HasPrecision(18, 2);
+
         }
     }
 }
